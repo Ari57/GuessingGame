@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class GuessingGame {
     public static void main(String[] args) {
-        int computerNumber = (int) (Math.random()*100 + 1); // math.random returns a positive double value
+        int computerNumber = (int) (Math.random()*100 + 1); // math.random returns a positive double value between 0-1
         int userAnswer = 0;
         System.out.println("The correct guess would be " + computerNumber);
         int count = 1;
